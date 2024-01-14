@@ -48,6 +48,7 @@ public class Program1 {
 		@AfterMethod
 		public void TearDown () {
 			driver.quit();
+			System.out.println("Ashish");
 		}
 	
 	
